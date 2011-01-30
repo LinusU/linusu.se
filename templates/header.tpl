@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="stylesheet" type="text/css" href="css" />
     <script type="text/javascript" src="scripts"></script>
+    <meta name="google-site-verification" content="N4K-j3kKAghi9-IWV0_VyFqQWO0q7y6mooHGiT2oqVg" />
 </head>
 <body>
 
