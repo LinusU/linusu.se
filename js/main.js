@@ -4,7 +4,7 @@ window.current = 0;
 
 function init(n) {
     
-    window.current = n;
+    window.current = parseInt(n);
     
     if(!history.pushState) { return false; }
     
@@ -22,6 +22,10 @@ function slide(n) {
     
     if(n == window.current) { return true; }
     if(!history.pushState) { return false; }
+    
+    if(n < 0 || n >= window.slides.length) {
+        return false;
+    }
     
     var name = window.slides[n];
     var title = name.charAt(0).toUpperCase() + name.substr(1);
@@ -55,6 +59,19 @@ function _slide(n) {
 }
 
 if(history.pushState) {
+    
+    window.moving = false;
+    
+    $(function () {
+        $('#main').bind('mousewheel', function (event, delta, deltaX, deltaY) {
+            if(deltaY != 0) { return true; }
+            if(window.moving) { return false; }
+            window.moving = true;
+            setTimeout(function () { window.moving = false; }, 400);
+            slide(window.current - deltaX);
+            return false;
+        });
+    });
     
     window.onpopstate = function(event) {
         
