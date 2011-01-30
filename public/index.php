@@ -11,8 +11,10 @@ $site->header_tpl = 'header.tpl';
 $site->footer_tpl = 'footer.tpl';
 
 if(strpos($_SERVER['REQUEST_URI'], basename(__FILE__)) !== false) {
-    $_SERVER['REQUEST_URI'] = substr($_SERVER['REQUEST_URI'], strpos($_SERVER['REQUEST_URI'], basename(__FILE__)) + 10);
+    $_SERVER['REQUEST_URI'] = substr($_SERVER['REQUEST_URI'], strpos($_SERVER['REQUEST_URI'], basename(__FILE__)) + 9);
 }
+
+$_SERVER['REQUEST_URI'] = trim($_SERVER['REQUEST_URI'], '/');
 
 if($_SERVER['REQUEST_URI'] == '') {
     $_SERVER['REQUEST_URI'] = 'home';
