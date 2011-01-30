@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(img,bg.png);
+}
+
+a:focus { outline: none; }
+a img { border: none; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.65);
+    margin: 8px 0px;
+}
+
+h1 { font-size: 28pt; }
+h2 { font-size: 25pt; }
+h3 { font-size: 22pt; }
+h4 { font-size: 19pt; }
+h5 { font-size: 16pt; }
+h6 { font-size: 13pt; }
+
+p { text-align: justify; }
+
+#site {
+    overflow: hidden;
+    margin: 48px auto;
+    padding: 10px 0px;
+    position: relative;
+    width: 960px;
+    height: 550px;
+    background-color: #d3d7cf;
+    background: -webkit-gradient(radial, center top, 0, center top, 480, from(#ffffff), to(#d3d7cf));
+    background: -moz-radial-gradient(center top, #ffffff,  #d3d7cf 480px);
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.25);
+}
+
+#menu {
+    overflow: auto;
+    background-image: url(img,line.png);
+    background-repeat: repeat-x;
+    padding-bottom: 32px;
+}
+
+#menu h1 {
+    font-weight: normal;
+    font-size: 28pt;
+    padding-left: 24px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.65);
+}
+
+#menu a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 0px white;
+    font-size: 10pt;
+}
+
+#main {
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    width: 960px;
+}
+
+#legal {
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
+    font-size: 8pt;
+    left: 8px;
+    right: 8px;
+    color: #7F7F7F;
+}
