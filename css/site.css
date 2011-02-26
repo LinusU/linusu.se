@@ -63,6 +63,11 @@ p { text-align: justify; }
     font-size: 10pt;
 }
 
+#menu img {
+    height: 48px;
+    width: 48px;
+}
+
 #menu #line {
     position: absolute;
     bottom: -8px;
