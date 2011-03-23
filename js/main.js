@@ -55,7 +55,7 @@ if(history.pushState) {
     window.moving = false;
     
     $(function () {
-        $('#main').bind('mousewheel', function (event, delta, deltaX, deltaY) {
+        $('body').bind('mousewheel', function (event, delta, deltaX, deltaY) {
             if(deltaY != 0) { return true; }
             if(window.moving) { return false; }
             window.moving = true;
