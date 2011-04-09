@@ -20,7 +20,7 @@ if($_SERVER['REQUEST_URI'] == '') {
     $_SERVER['REQUEST_URI'] = 'home';
 }
 
-$islinus = ($_SERVER['HTTP_HOST'] == "linus.xn--unneback-9wa.se");
+$islinus = in_array($_SERVER['HTTP_HOST'], array("linus.xn--unnebck-9wa.se", "linus.unnebäck.se"));
 
 $slides = $islinus?array('home', 'yrkessm', 'nexus', 'macbook', 'ipad'):array('home', 'web', 'android', 'contact');
 $site->assign('slides', $slides);
