@@ -20,10 +20,14 @@ if($_SERVER['REQUEST_URI'] == '') {
     $_SERVER['REQUEST_URI'] = 'home';
 }
 
-$slides = array('home', 'web', 'android', 'contact');
+$islinus = ($_SERVER['HTTP_HOST'] == "linus.xn--unneback-9wa.se");
+
+$slides = $islinus?array('home', 'yrkessm', 'nexus', 'macbook', 'ipad'):array('home', 'web', 'android', 'contact');
 $site->assign('slides', $slides);
 
 if(in_array($_SERVER['REQUEST_URI'], $slides)) {
+    
+    $site->assign('pageSite', $islinus?'linus':'linusu');
     
     $site->assign('pageTitle', ucfirst($_SERVER['REQUEST_URI']));
     $site->assign('pageSlide', array_search($_SERVER['REQUEST_URI'], $slides));

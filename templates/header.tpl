@@ -22,6 +22,8 @@
     
     <div id="menu" class="container_12">
         
+        {if $pageSite == "linusu"}
+        
         <div class="grid_8"> <h1>LinusU AB</h1> </div>
         
         <a href="home" class="grid_1" onclick="return !slide(0);"> <img src="img,help-about.png" /> <br /> Home </a>
@@ -30,6 +32,20 @@
         <a href="contact" class="grid_1" onclick="return !slide(3);"> <img src="img,mail-send.png" /> <br /> Contact </a>
         
         <div id="line" style="left: -{math equation="80*(3-x)" x=$pageSlide}px;"></div>
+        
+        {elseif $pageSite == "linus"}
+        
+        <div class="grid_7"> <h1>Linus Unnebäck</h1> </div>
+        
+        <a href="home" class="grid_1" onclick="return !slide(0);"> <img src="img,go-home.png" /> <br /> Home </a>
+        <a href="yrkessm" class="grid_1" onclick="return !slide(1);"> <img src="img,help-about.png" /> <br /> Yrkes SM </a>
+        <a href="nexus" class="grid_1" onclick="return !slide(2);"> <img src="img,phone48.png" /> <br /> Nexus </a>
+        <a href="macbook" class="grid_1" onclick="return !slide(3);"> <img src="img,computer.png" /> <br /> MacBook </a>
+        <a href="ipad" class="grid_1" onclick="return !slide(4);"> <img src="img,tablet-apple-ipad.png" /> <br /> iPad </a>
+        
+        <div id="line" style="left: -{math equation="80*(4-x)" x=$pageSlide}px;"></div>
+        
+        {/if}
         
     </div>
     

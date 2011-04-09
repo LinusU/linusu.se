@@ -9,11 +9,13 @@ function init(n) {
     if(!history.pushState) { return false; }
     
     $('#site').addClass("slide" + n);
+    $('#line').css('left', -(window.slides.length-4)*80);
     
     $('#slide0').css({ left:    0, display: 'block' });
     $('#slide1').css({ left:  960, display: 'block' });
     $('#slide2').css({ left: 1920, display: 'block' });
     $('#slide3').css({ left: 2880, display: 'block' });
+    $('#slide4').css({ left: 3840, display: 'block' });
     
     return true;
 }
