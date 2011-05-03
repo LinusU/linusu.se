@@ -18,6 +18,11 @@
 </head>
 <body>
 
+<div id="notice">
+    <b>Linus Unnebäck</b> har inte gjort <span style="text-decoration: underline; color: blue;">opencore.org</span> men han har däremot gjort <a href="http://opencores.org/">opencores.org</a>
+    <div class="close" onclick="$('#notice').slideUp();$(this).fadeOut();">x</div>
+</div>
+
 <div id="site">
     
     <div id="menu" class="container_12">
