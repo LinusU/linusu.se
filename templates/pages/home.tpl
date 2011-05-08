@@ -33,7 +33,7 @@
 <div class="grid_6">
     
     <p style="text-align: center;">
-        <img src="img,Linus.png" />
+        <img src="img,Linus.png" class="image" />
     </p>
     
 </div>

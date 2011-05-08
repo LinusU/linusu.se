@@ -12,7 +12,7 @@
     <script type="text/javascript" src="scripts"></script>
     
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="viewport" content="user-scalable=no, width=1024px" />
+    <meta name="viewport" content="user-scalable=no, width=1024" />
     <meta name="google-site-verification" content="N4K-j3kKAghi9-IWV0_VyFqQWO0q7y6mooHGiT2oqVg" />
     
 </head>
