@@ -10,7 +10,7 @@
 <div class="grid_6">
     
     <p style="text-align: center;">
-        <img src="img,MacBookAir.png" class="image" />
+        <img src="img,MacBookAir.jpg" class="image" />
     </p>
     
 </div>
