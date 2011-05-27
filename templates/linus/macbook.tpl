@@ -2,7 +2,7 @@
 <div class="grid_1" style="padding-top: 165px;">
     
     <a href="nexus" onclick="return !slide(2);">
-        <img src="img,prev.png" />
+        <img src="img,prev.png" width="60" height="60" />
     </a>
     
 </div>
@@ -10,7 +10,7 @@
 <div class="grid_6">
     
     <p style="text-align: center;">
-        <img src="img,MacBookAir.jpg" class="image" />
+        <img src="img,MacBookAir.jpg" class="image" width="460" height="400" />
     </p>
     
 </div>
@@ -39,7 +39,7 @@
 <div class="grid_1" style="padding-top: 165px;">
     
     <a href="ipad" onclick="return !slide(4);">
-        <img src="img,next.png" />
+        <img src="img,next.png" width="60" height="60" />
     </a>
     
 </div>

@@ -2,7 +2,7 @@
 <div class="grid_1" style="padding-top: 165px;">
     
     <a href="web" onclick="return !slide(1);">
-        <img src="img,prev.png" />
+        <img src="img,prev.png" width="60" height="60" />
     </a>
     
 </div>
@@ -51,7 +51,7 @@
 <div class="grid_1" style="padding-top: 165px;">
     
     <a href="contact" onclick="return !slide(3);">
-        <img src="img,next.png" />
+        <img src="img,next.png" width="60" height="60" />
     </a>
     
 </div>

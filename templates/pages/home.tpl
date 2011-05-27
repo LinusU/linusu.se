@@ -1,7 +1,7 @@
 
 <div class="grid_1" style="padding-top: 165px;">
     
-    <img src="img,prev.png" style="opacity: 0.35;" />
+    <img src="img,prev.png" style="opacity: 0.35;" width="60" height="60" />
     
 </div>
 
@@ -41,7 +41,7 @@
 <div class="grid_1" style="padding-top: 165px;">
     
     <a href="web" onclick="return !slide(1);">
-        <img src="img,next.png" />
+        <img src="img,next.png" width="60" height="60" />
     </a>
     
 </div>
