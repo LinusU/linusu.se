@@ -1,0 +1,19 @@
+
+.icon {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+}
+
+.linus .icon { background-image: url(img,linus.png); }
+.linusu .icon { background-image: url(img,linusu.png); }
+
+.icon.home { background-position: 0px 0px; }
+.icon.web { background-position: -48px 0px; }
+.icon.android { background-position: -96px 0px; }
+.icon.contact { background-position: -144px 0px; }
+
+.icon.yrkessm { background-position: -48px 0px; }
+.icon.nexus { background-position: -96px 0px; }
+.icon.macbook { background-position: -144px 0px; }
+.icon.ipad { background-position: -192px 0px; }

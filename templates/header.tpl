@@ -23,7 +23,7 @@
     <div class="close" onclick="$('#notice').slideUp();$(this).fadeOut();">x</div>
 </div>
 
-<div id="site">
+<div id="site" class="{$pageSite}">
     
     <div id="menu" class="container_12">
         
@@ -31,10 +31,10 @@
         
         <div class="grid_8"> <h1>LinusU AB</h1> </div>
         
-        <a href="home" class="grid_1" onclick="return !slide(0);"> <img src="img,help-about.png" /> <br /> Home </a>
-        <a href="web" class="grid_1" onclick="return !slide(1);"> <img src="img,applications-webbrowser.png" /> <br /> Web </a>
-        <a href="android" class="grid_1" onclick="return !slide(2);"> <img src="img,applications-java.png" /> <br /> Android </a>
-        <a href="contact" class="grid_1" onclick="return !slide(3);"> <img src="img,mail-send.png" /> <br /> Contact </a>
+        <a href="home" class="grid_1" onclick="return !slide(0);"> <span class="icon home"></span> <br /> Home </a>
+        <a href="web" class="grid_1" onclick="return !slide(1);"> <span class="icon web"></span> <br /> Web </a>
+        <a href="android" class="grid_1" onclick="return !slide(2);"> <span class="icon android"></span> <br /> Android </a>
+        <a href="contact" class="grid_1" onclick="return !slide(3);"> <span class="icon contact"></span> <br /> Contact </a>
         
         <div id="line" style="left: -{math equation="80*(3-x)" x=$pageSlide}px;"></div>
         
@@ -42,11 +42,11 @@
         
         <div class="grid_7"> <h1>Linus Unnebäck</h1> </div>
         
-        <a href="home" class="grid_1" onclick="return !slide(0);"> <img src="img,go-home.png" /> <br /> Home </a>
-        <a href="yrkessm" class="grid_1" onclick="return !slide(1);"> <img src="img,help-about.png" /> <br /> Yrkes SM </a>
-        <a href="nexus" class="grid_1" onclick="return !slide(2);"> <img src="img,phone48.png" /> <br /> Nexus </a>
-        <a href="macbook" class="grid_1" onclick="return !slide(3);"> <img src="img,computer.png" /> <br /> MacBook </a>
-        <a href="ipad" class="grid_1" onclick="return !slide(4);"> <img src="img,tablet-apple-ipad.png" /> <br /> iPad </a>
+        <a href="home" class="grid_1" onclick="return !slide(0);">    <span class="icon home"></span> <br /> Home </a>
+        <a href="yrkessm" class="grid_1" onclick="return !slide(1);"> <span class="icon yrkessm"></span> <br /> Yrkes SM </a>
+        <a href="nexus" class="grid_1" onclick="return !slide(2);">   <span class="icon nexus"></span> <br /> Nexus </a>
+        <a href="macbook" class="grid_1" onclick="return !slide(3);"> <span class="icon macbook"></span> <br /> MacBook </a>
+        <a href="ipad" class="grid_1" onclick="return !slide(4);">    <span class="icon ipad"></span> <br /> iPad </a>
         
         <div id="line" style="left: -{math equation="80*(4-x)" x=$pageSlide}px;"></div>
         

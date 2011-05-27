@@ -10,7 +10,7 @@
 <div class="grid_6">
     
     <p style="text-align: center;">
-        <img src="img,Busstiderna.png" />
+        <img src="img,Busstiderna.png" width="460" height="400" />
     </p>
     
 </div>

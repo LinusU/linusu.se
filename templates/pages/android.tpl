@@ -35,7 +35,7 @@
 <div class="grid_3">
     
     <p style="text-align: center;">
-        <img src="img,NexusOne.png" />
+        <img src="img,NexusOne.png" width="200" height="400" />
     </p>
     
 </div>
@@ -43,7 +43,7 @@
 <div class="grid_3">
     
     <p style="text-align: center;">
-        <img src="img,NexusOneCode.png" />
+        <img src="img,NexusOneCode.png" width="200" height="400" />
     </p>
     
 </div>

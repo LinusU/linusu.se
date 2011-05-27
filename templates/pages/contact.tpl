@@ -12,7 +12,7 @@
     <div class="grid_4">
         
         <p style="text-align: center; margin-top: 24px;">
-            <img src="img,mail-message-new.png" />
+            <img src="img,mail-message-new.png" width="256" height="256" />
         </p>
         
     </div>
@@ -32,12 +32,12 @@
         </p>
         
         <p style="text-align: center; width: 50%; float: left;">
-            <img src="img,internet-mail.png" style="vertical-align: -4px;" />
+            <img src="img,internet-mail.png" style="vertical-align: -4px;" width="22" height="22" />
             <a href="mailto:info@linusu.se">info@linusu.se</a>
         </p>
         
         <p style="text-align: center; width: 50%; float: left;">
-            <img src="img,phone.png" style="vertical-align: -4px;" />
+            <img src="img,phone.png" style="vertical-align: -4px;" width="22" height="22" />
             <a href="callto:0706240910">070 - 62 40 910</a>
         </p>
         
