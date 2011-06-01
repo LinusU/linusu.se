@@ -25,8 +25,8 @@
     </p>
     
     <p>
-        Linus Unnebäck totaly aced in his category; Web Design. He was in
-        the lead thru all days of the competition and his final score where
+        Linus Unnebäck totally aced in his category; Web Design. He was in
+        the lead through all days of the competition and his final score where
         high above the score of any other competitor.
     </p>
     
