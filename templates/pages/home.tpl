@@ -10,7 +10,7 @@
     <h1> Welcome </h1>
     
     <p>
-        You've just stumbled in to one of the worlds best Web Agency.
+        You've just stumbled in to one of the worlds best Web Agencies.
     </p>
     
     <h2> Line of work </h2>
@@ -24,7 +24,7 @@
     <h2> Hire us! </h2>
     
     <p>
-        If you feel the need to have a website or app, but lacks the skills
+        If you feel the need to have a website or app, but lack the skills
         necessary to create one, then feel free to
         <a href="contact" onclick="return !slide(3);">contact us</a>.
     </p>
