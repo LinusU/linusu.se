@@ -57,13 +57,14 @@ if(history.pushState) {
     window.moving = false;
     
     $(function () {
-        $('body').bind('mousewheel', function (event, delta, deltaX, deltaY) {
-            if(deltaY != 0) { return true; }
-            if(window.moving) { return false; }
-            window.moving = true;
-            setTimeout(function () { window.moving = false; }, 500);
-            slide(window.current - deltaX);
-            return false;
+        $(document).bind('keydown', function (e) {
+            if(e.which == 37 || e.which == 39) {
+                e.preventDefault();
+                if(window.moving) { return ; }
+                window.moving = true;
+                setTimeout(function () { window.moving = false; }, 600);
+                slide(parseInt(window.current) + (e.which==37?-1:1));
+            }
         });
     });
     
