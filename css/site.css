@@ -23,41 +23,6 @@ h6 { font-size: 13pt; }
 
 p { text-align: justify; }
 
-#notice {
-    text-align: center;
-    padding: 8px 0px;
-    text-shadow: 1px 1px white;
-    text-shadow: 1px 1px rgba(255, 255, 255, 0.6);
-    border-bottom: 1px solid #333333;
-    background: #D8E5F8; /* old browsers */
-    background: -moz-linear-gradient(top, #D8E5F8 0%, #B4CBE7 100%); /* firefox */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D8E5F8), color-stop(100%,#B4CBE7)); /* webkit */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D8E5F8', endColorstr='#B4CBE7',GradientType=0 ); /* ie */
-    background: -o-linear-gradient(top, #D8E5F8 0%,#B4CBE7 100%); /* opera */
-}
-
-#notice .close {
-    font-weight: bold;
-    color: #333333;
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    font-size: 14pt;
-    padding: 0px 8px 4px;
-    cursor: pointer;
-}
-
-#notice:hover .close {
-    color: black;
-}
-
-#notice .close:hover {
-    background-color: #cccccc;
-    border-radius: 6px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-}
-
 #site {
     overflow: hidden;
     margin: 48px auto;
