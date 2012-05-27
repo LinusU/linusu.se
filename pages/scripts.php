@@ -4,7 +4,7 @@ if(isset($_SERVER['HTTP_USER_AGENT']) && !preg_match('/MSIE [1-6]\./', $_SERVER[
     ini_set("zlib.output_compression", "On");
 }
 
-header('Content-Type: text/javascript; charset=utf-8');
+$smarty->contentType('javascript');
 
 $base = dirname(__FILE__) . '/../js';
 
