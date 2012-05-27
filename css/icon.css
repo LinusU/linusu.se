@@ -5,8 +5,8 @@
     height: 48px;
 }
 
-.linus .icon { background-image: url(img,linus.png); }
-.linusu .icon { background-image: url(img,linusu.png); }
+.linus .icon { background-image: url(img/linus.png); }
+.linusu .icon { background-image: url(img/linusu.png); }
 
 .icon.home { background-position: 0px 0px; }
 .icon.web { background-position: -48px 0px; }

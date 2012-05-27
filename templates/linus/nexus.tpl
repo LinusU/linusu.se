@@ -2,7 +2,7 @@
 <div class="grid_1" style="height: 350px; padding-top: 165px;">
     
     <a href="yrkessm" onclick="return !slide(1);">
-        <img src="img,prev.png" width="60" height="60" />
+        <img src="img/prev.png" width="60" height="60" />
     </a>
     
 </div>
@@ -48,8 +48,8 @@
 <div class="grid_4">
     
     <p style="text-align: center;">
-        <img src="img,NexusBox.jpg" class="image" style="margin-bottom: 8px;" width="220" height="192" />
-        <img src="img,NexusOne.jpg" class="image" style="margin-top: 8px;" width="220" height="192" />
+        <img src="img/NexusBox.jpg" class="image" style="margin-bottom: 8px;" width="220" height="192" />
+        <img src="img/NexusOne.jpg" class="image" style="margin-top: 8px;" width="220" height="192" />
     </p>
     
 </div>
@@ -57,7 +57,7 @@
 <div class="grid_1" style="padding-top: 165px;">
     
     <a href="macbook" onclick="return !slide(3);">
-        <img src="img,next.png" width="60" height="60" />
+        <img src="img/next.png" width="60" height="60" />
     </a>
     
 </div>

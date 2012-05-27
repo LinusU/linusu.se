@@ -2,7 +2,7 @@
 <div class="grid_1" style="padding-top: 165px;">
     
     <a href="web" onclick="return !slide(1);">
-        <img src="img,prev.png" width="60" height="60" />
+        <img src="img/prev.png" width="60" height="60" />
     </a>
     
 </div>
@@ -35,7 +35,7 @@
 <div class="grid_3">
     
     <p style="text-align: center;">
-        <img src="img,NexusOne.png" width="200" height="400" />
+        <img src="img/NexusOne.png" width="200" height="400" />
     </p>
     
 </div>
@@ -43,7 +43,7 @@
 <div class="grid_3">
     
     <p style="text-align: center;">
-        <img src="img,NexusOneCode.png" width="200" height="400" />
+        <img src="img/NexusOneCode.png" width="200" height="400" />
     </p>
     
 </div>
@@ -51,7 +51,7 @@
 <div class="grid_1" style="padding-top: 165px;">
     
     <a href="contact" onclick="return !slide(3);">
-        <img src="img,next.png" width="60" height="60" />
+        <img src="img/next.png" width="60" height="60" />
     </a>
     
 </div>

@@ -2,7 +2,7 @@
 <div class="grid_1" style="padding-top: 165px;">
     
     <a href="macbook" onclick="return !slide(3);">
-        <img src="img,prev.png" width="60" height="60" />
+        <img src="img/prev.png" width="60" height="60" />
     </a>
     
 </div>
@@ -25,9 +25,9 @@
     
     <p style="text-align: center;">
         
-        <img src="img,iPad0.jpg" class="image" style="margin: 0px 12px;" width="230" height="230" />
-        <img src="img,iPad1.jpg" class="image" style="margin: 0px 12px;" width="230" height="230" />
-        <img src="img,iPad2.jpg" class="image" style="margin: 0px 12px;" width="230" height="230" />
+        <img src="img/iPad0.jpg" class="image" style="margin: 0px 12px;" width="230" height="230" />
+        <img src="img/iPad1.jpg" class="image" style="margin: 0px 12px;" width="230" height="230" />
+        <img src="img/iPad2.jpg" class="image" style="margin: 0px 12px;" width="230" height="230" />
         
     </p>
     
@@ -35,6 +35,6 @@
 
 <div class="grid_1" style="padding-top: 165px;">
     
-    <img src="img,next.png" style="opacity: 0.35;" width="60" height="60" />
+    <img src="img/next.png" style="opacity: 0.35;" width="60" height="60" />
     
 </div>

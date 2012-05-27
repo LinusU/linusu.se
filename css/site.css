@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    background-image: url(img,bg.png);
+    background-image: url(img/bg.png);
     margin: 0px;
 }
 
@@ -109,7 +109,7 @@ p { text-align: justify; }
     bottom: -8px;
     height: 32px;
     width: 1280px;
-    background-image: url(img,line.png);
+    background-image: url(img/line.png);
     background-repeat: repeat-x;
 }
 

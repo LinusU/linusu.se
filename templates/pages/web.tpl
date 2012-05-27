@@ -2,7 +2,7 @@
 <div class="grid_1" style="padding-top: 165px;">
     
     <a href="home" onclick="return !slide(0);">
-        <img src="img,prev.png" width="60" height="60" />
+        <img src="img/prev.png" width="60" height="60" />
     </a>
     
 </div>
@@ -10,7 +10,7 @@
 <div class="grid_6">
     
     <p style="text-align: center;">
-        <img src="img,Busstiderna.png" width="460" height="400" />
+        <img src="img/Busstiderna.png" width="460" height="400" />
     </p>
     
 </div>
@@ -41,7 +41,7 @@
 <div class="grid_1" style="padding-top: 165px;">
     
     <a href="android" onclick="return !slide(2);">
-        <img src="img,next.png" width="60" height="60" />
+        <img src="img/next.png" width="60" height="60" />
     </a>
     
 </div>

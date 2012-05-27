@@ -2,7 +2,7 @@
 <div class="grid_1" style="height: 350px; padding-top: 165px;">
     
     <a href="android" onclick="return !slide(2);">
-        <img src="img,prev.png" width="60" height="60" />
+        <img src="img/prev.png" width="60" height="60" />
     </a>
     
 </div>
@@ -12,7 +12,7 @@
     <div class="grid_4">
         
         <p style="text-align: center; margin-top: 24px;">
-            <img src="img,mail-message-new.png" width="256" height="256" />
+            <img src="img/mail-message-new.png" width="256" height="256" />
         </p>
         
     </div>
@@ -32,12 +32,12 @@
         </p>
         
         <p style="text-align: center; width: 50%; float: left;">
-            <img src="img,internet-mail.png" style="vertical-align: -4px;" width="22" height="22" />
+            <img src="img/internet-mail.png" style="vertical-align: -4px;" width="22" height="22" />
             <a href="mailto:info@linusu.se">info@linusu.se</a>
         </p>
         
         <p style="text-align: center; width: 50%; float: left;">
-            <img src="img,phone.png" style="vertical-align: -4px;" width="22" height="22" />
+            <img src="img/phone.png" style="vertical-align: -4px;" width="22" height="22" />
             <a href="callto:0706240910">070 - 62 40 910</a>
         </p>
         
@@ -45,7 +45,7 @@
     
     <div class="grid_1" style="padding-top: 165px;">
         
-        <img src="img,next.png" style="opacity: 0.35;" width="60" height="60" />
+        <img src="img/next.png" style="opacity: 0.35;" width="60" height="60" />
         
     </div>
     

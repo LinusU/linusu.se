@@ -7,7 +7,7 @@
     
     <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="stylesheet" type="text/css" href="css" />
-    <link rel="apple-touch-icon" href="img,AppleIcon{if $pageSite == "linus"}Linus{/if}.png" />
+    <link rel="apple-touch-icon" href="img/AppleIcon{if $pageSite == "linus"}Linus{/if}.png" />
     
     <script type="text/javascript" src="scripts"></script>
     

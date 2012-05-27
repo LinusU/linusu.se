@@ -1,18 +1,13 @@
 <?php
 
-require "smarty3/Smarty.class.php";
-require "/opt/Buzzmix/require.php";
+require (dirname(__FILE__) . '/../lib/Buzzmix/require.php');
 
 mb_internal_encoding("UTF-8");
 
 $site = new Buzzmix(dirname(__FILE__) . '/..');
 
-$site->header_tpl = 'header.tpl';
-$site->footer_tpl = 'footer.tpl';
-
-if(strpos($_SERVER['REQUEST_URI'], basename(__FILE__)) !== false) {
-    $_SERVER['REQUEST_URI'] = substr($_SERVER['REQUEST_URI'], strpos($_SERVER['REQUEST_URI'], basename(__FILE__)) + 9);
-}
+$site->setHeader('header.tpl');
+$site->setFooter('footer.tpl');
 
 $_SERVER['REQUEST_URI'] = trim($_SERVER['REQUEST_URI'], '/');
 
@@ -32,10 +27,10 @@ if(in_array($_SERVER['REQUEST_URI'], $slides)) {
     $site->assign('pageTitle', ucfirst($_SERVER['REQUEST_URI']));
     $site->assign('pageSlide', array_search($_SERVER['REQUEST_URI'], $slides));
     
-    $site->handle_request("home");
+    $site->handleRequest("home");
     
-} elseif($site->handle_request($_SERVER['REQUEST_URI']) === false) {
+} else {
     
-    header('x', true, 404);
+    $site->handleRequest($_SERVER['REQUEST_URI']);
     
 }
